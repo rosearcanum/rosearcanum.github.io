@@ -1,1 +1,58 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Idubbbz Anthology</title>
+		<style>
+		 body {
+		   font-family: 'Arial', sans-serif;
+		   font-size: 20px;
+		}
+		 h1, h2 {
+		   font-family: 'Georgia', serif;
+		   font-size: 30px;
+		
+		}
+		</style>
+	</head>
+	
+	<body>
+		
+	<audio id="bg-music" loop>
+    <source src="background.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+
+	document.body.addEventListener('click', 
+	function () {
+		const music = 
+	document.getElementById('bg-music');
+		music.play();
+	}, { once: true });
+  </script>
+  
+	<h1>New Webpage</h1>	
+	<p></p>
+	<h2>Table of Contents</h2>
+	<p>Feel free to use the table of contents below as not just a guide for where this story will take us, but as a direct jump to whichever part of the timeline you wish to read about first. Thank you, and let us now enjoy this trip down memory lane.</p>
+	<ul>
+	   <li><a href="#where-it-began">Where it Began</a></li>
+	   <li><a href="#creator-clash-1">Creator Clash 1</a></li>
+	   <li><a href="sam-hyde">Sam Hyde Joins the Fight</a></li>
+	   <li><a href="creator-clash-2">Creator Clash 2</a></li>
+	   <li><a href="return">The Return of Content Cops</a></li>
+	
+	<h2 id="where-it-began">Where it Began</h2>
+		<p>Placeholder</p>
+	<h2 id="creator-clash-1">Creator Clash 1</h2>
+	   <p>Placeholder</p>
+	<h2 id="sam-hyde">Sam Hyde Joins the Fight</h2>
+	   <p>Placeholder</p>
+	<h2 id="creator-clash-2">Creator Clash 2</h2>
+	   <p>Placeholder</p>
+	<h2 id="return">Return</h2>
+	</body>
+		
+</html>
