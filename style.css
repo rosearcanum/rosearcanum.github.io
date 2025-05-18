@@ -1,0 +1,163 @@
+body {
+	position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+}
+h1 {
+font-family: 'Garamond', serif;
+font-size: 1.85em;
+position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Garamond', serif;
+  font-size: 2em;
+  text-align: left;
+  text-shadow:  2px 3px #000, 0px -1px #000, 0px 1px #000, -1px 0px #000, 1px 0px #000, -1px -1px #000, 1px 2px #000, -1px 1px #000, 1px -1px #000;
+  z-index: 2;
+}
+
+h2 {
+font-family: 'Georgia', serif;
+font-size: 30px;
+text-align: center;
+color:#2d3568
+}
+p	{
+line-height:1.5em;
+text-align: center;
+color:#2d3568
+}
+a	{
+text-decoration: none;
+color:#6a45c7 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Sky background */
+}
+
+body {
+  background: #FFF url('sky.jpg') repeat-x 0 0;
+  background-size: cover; /* Sky background */
+  animation: animate 260s linear infinite;
+}
+
+@keyframes animate { 
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -10000px 0; 
+  }
+}
+
+#header {
+position: relative;
+z-index: 11;
+}
+
+#headerbar { 
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 35px;
+  background-color: #FFF;
+  box-shadow: 0px 1px #FFF, 0px 2px #000;
+  z-index: 11;
+  overflow: hidden;
+  padding: 0 40px; 
+}
+
+#headernews {
+  z-index: 11;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1;
+  margin: 0 40px;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 19px;
+  line-height: 40px; 
+}
+
+#fadeleft {
+position: fixed;
+left: 0px;
+top: 0px;
+z-index: 10;
+}
+#faderight {
+position: fixed;
+right: 0px;
+top: 0px;
+z-index: 10;
+}
+
+#sun {
+  height: 100vh;
+  background-image: url('sun.jpg');
+  background-size: cover;
+  background-position: center top;
+  border-bottom: 2px solid rgb(0, 0, 0)
+}
+
+#hello {
+  color:#353b72
+
+}
+
+.separator {
+background-image: url(separator.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 200px;
+margin-top: 5px;
+transform: scale(0.75);
+transform-origin: center;
+opacity: 0.6;
+}
+
+.trash {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.raygun {
+text-align: center;
+}
+
+.tattoo {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.bald {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.cookie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.autism {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
